@@ -24,7 +24,7 @@ lista_c1 = [np.random.random()]
 
 
 for i in range(1,N):
-    print(i)
+    
     propuesta_a  = lista_a[i-1] + np.random.random()
     propuesta_c  = lista_c[i-1] + np.random.random()
     propuesta_b  = lista_b[i-1] + np.random.random()
